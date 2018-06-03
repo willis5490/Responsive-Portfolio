@@ -1,0 +1,368 @@
+body {
+    width: 100%;
+    margin: auto;
+    background-image: url(what-the-hex.png)
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.header {
+    background: #ffffff;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    border-bottom: solid;
+    border-color:#cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+.name {
+    float: left;
+    background-color:#4aaaa5;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+li {
+    list-style: none;
+    float: left;
+    padding: 20px;
+    bottom: 0;
+    font-size: 20px;
+    color: #cccccc;
+    top: -10px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+li a {
+    text-decoration: none;
+    color: #cccccc
+}
+.nav {
+    float: right;
+   
+}
+img {
+    width: 200px;
+    height: 200px;
+    float: left;
+
+}
+.content {
+    padding-top: 75px;
+
+}
+p{
+    font-size: 20px;
+    padding-left: 20px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+.container2 {
+    width: 960px;
+    margin: 0 auto;
+    max-width: 960px;
+}
+.info {
+    padding: 20px;
+    margin: auto;
+    background-color:#ffffff;
+    margin-top: 40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+#pic {
+    float: left;
+    clear: left;
+    padding: 20px;
+
+}
+.about {
+    border-bottom: solid;
+    border-bottom-color:#cccccc;
+    padding-bottom: 30px;
+    color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+footer {
+    width: 100%;
+    background-color:#666666;
+    height: 50px;
+    bottom: 0;
+    position: fixed; 
+    border-top: solid 5px;
+    border-top-color: #4aaaa5;
+
+}
+#copy {
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    bottom: -25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#name3 {
+    width: 920px;
+    color: #777777
+
+}
+#email {
+    width: 920px;
+    color: #777777;
+}
+#mess {
+    width: 920px;
+    height: 100px;
+    color: #777777
+}
+.y2k {
+    font-size: 15px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#grid {
+    width: 920px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    grid-gap: 10px;
+}
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    position: relative;
+}
+#box2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    position: relative;
+}
+#box3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: relative;
+}
+#box4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: relative;
+}
+#box5{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    position: relative;
+}
+.text-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+.im{
+    object-fit: cover;
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+#butt{
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+    width: 10%;
+
+}
+@media screen and (max-width:640px){
+    .container{
+        width: 100%
+    }
+    .container2{
+        width: 100%; 
+     }
+     li a{
+
+         text-align: center;
+         width:100%;
+
+     }
+     li{
+         text-align: center;
+
+     }
+     .nav{
+         text-align: center;
+         width: 80%;
+     }
+     p{
+         width: 100%;
+         font-size: 10px;
+     }
+     #pic {
+         width: 100%;
+     }
+     h1{
+         text-align: center;
+         width: 100%;
+     }
+     .name {
+         align-content: center;
+         width: 100%;
+     }
+     .header{
+         text-align: center;
+     }
+     .info{
+         width: 100%;
+     }
+     img {
+         width: 90%;
+         align-content: center;
+     }
+     .y2k{
+         width: 100%;
+     }
+     #name3{
+         width: 100%;
+
+     }
+     #mess {
+         width: 100%;
+     }
+     #email{
+         width: 100%;
+     }
+     #butt{
+         width: 100%;
+     }
+     #grid{
+        width: 100%;
+     }
+    
+};
+@media screen and (max-width: 980px){
+    .container{
+        width: 100%
+    }
+    .container2{
+        width: 100%;
+        height: 100;
+    }
+    .content{
+        height: 100%;
+        width: 100%;
+    }
+    .nav{
+        width: 100%;
+    }
+   
+    li a{
+        width: 100%;
+    }
+    li{
+        widows: 100%;
+    }
+    .header{
+        widows: 100%;
+    }
+    p{
+        font-size: 15px;
+    }
+    .y2k{
+        width: 100%;
+    }
+    #name3{
+        width: 100%;
+
+    }
+    #mess {
+        width: 100%;
+    }
+    #email{
+        width: 100%;
+    }
+    #butt{
+        width: 100%;
+    
+    }
+    #grid{
+        width: 100%;
+     }
+
+}
+@media screen and (max-width: 768px){
+   .container{
+       width: 100%
+   } 
+   .container2{
+       height: 80%;
+       width: 90%;
+   }
+   content{
+       height: 100%
+   }
+   .content{
+       height: 80%;
+       width: 90%;
+   }
+
+   
+   h1 {
+       font-size: 25px;
+       widows: 50%;
+   }
+   .header{
+       width: 100%;
+   }
+   li a{
+    font-size: 20px;
+    width: 50%;
+   } 
+   p{
+       font-size: 10px;
+       width: 100%;
+    } 
+    .y2k{
+        width: 80%;
+    }
+    #name3{
+        width: 100%;
+
+    }
+    #mess {
+        width: 100%;
+    }
+    #email{
+        width: 100%;
+    }
+    #butt{
+        width: 40%;
+    }
+    .info{
+        width: 80%;
+    }
+    #grid{
+        width: 100%;
+     }
+
+};
